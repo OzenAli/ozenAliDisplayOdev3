@@ -1,0 +1,60 @@
+body{
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: 15% 60% 25%;
+    gap: 10px;
+    border: 5px solid black;
+    padding: 5px;
+}
+nav{
+    background-color: blue;
+    border: 5px solid black;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 10px;
+}
+
+
+.kutu1{
+    display: grid;
+    grid-template-rows: 35% 65%;
+    gap: 10px;
+}
+.kutu2{
+    display: grid;
+    grid-template-rows: 80% 20%;
+    gap: 10px;
+}
+
+.kutuA{
+    background-color: green;
+    border: 5px solid black;
+}
+
+.kutuB{
+    background-color: blue;
+    border: 5px solid black;
+}
+
+.kutuC{
+    background-color: blue;
+    border: 5px solid black;
+    margin-right: 10px;
+}
+
+.kutuD{
+    background-color: green;
+    border: 5px solid black;
+    margin-right: 10px;
+}
+
+
+footer {
+    background-color: green;
+    border: 5px solid black;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
